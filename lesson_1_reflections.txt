@@ -1,0 +1,63 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It automated the process and saved me the energy to do so line by line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Being able to trace a problem back each version will allow a programmer to
+    be more efficient in finding the root cause.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of Git are that you don't have automatically saved versions like Google
+    docs does that may have meaningless differences from verison to version.
+    These many versions will increase the time it takes when trying to trace a 
+    problem back through previous versions.
+
+    Cons of Git are that sometimes you may forget to neglect to commit important
+    changes (because each commit takes a bit of time to do and adds up). Thus,
+    when comparing adjacent versions, many differences will show up and may make
+    it harder to find the problem code.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs and code files have differing purposes.
+    Google Docs are standalone documents whereas code files are pieces of a
+    whole that rely on each other. A meaningful change in programming may involve
+    small changes in multiple code files. Therefore, it makes more sense to
+    save and document these changes across multiple files in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log displays a set of revisions including commit id, author, and message.
+    git diff allows the comparison between any two revisions (that may not be 
+    adjacent).
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Using version control gives more confidence in making changes that could
+    break something because it is possible and easier to undo a problematic
+    change.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try the different commands in Git in order to familiarize myself
+    with them.
+
+
+
+
+
+
+
+
+
+
+
+
