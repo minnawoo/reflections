@@ -5,47 +5,56 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 	
-	The staging area allows the user to control which files will be part of the
-	commit and thus repository history. It makes it possible to commit a number of
-	files that is less than the number of files in the working directory. This allows the 
-	coder to more efficiently look back on earlier commits when debugging to figure out what 
-	changes were made. (Rather than look through files that weren't changed, they can look 
-	directly at the files that were changed.)
+	The staging area allows the user to control which files will be part of 
+	the commit and thus repository history. It makes it possible to commit a 
+	number of files that is less than the number of files in the working 
+	directory. This allows the coder to more efficiently look back on earlier 
+	commits when debugging to figure out what changes were made. (Rather than 
+	look through files that weren't changed, they can look directly at the 
+	files that were changed.)
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-	You don't have to include every single file in the working directory in every
-	commit. Since you may only change one or a few files each commit.
+
+	You don't have to include every single file in the working directory in 
+	every commit. Since you may only change one or a few files each commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
 	Branches can let you experiment or create new versions with the original
 	version intact. A Google employee likes to create a new branch every time
-	he is about to do something different, like correcting a bug or make a new 
-	feature. He calls it a "development branch", or a "unique feature branch", or an
-	"experimental branch", all of which you and the people you show it to can fully 
-	expect to break.
+	he is about to do something different, like correcting a bug or make a 
+	new feature. He calls it a "development branch", or a "unique feature 
+	branch", or an "experimental branch", all of which you and the people you 
+	show it to can fully expect to break.
 
 How do the diagrams help you visualize the branch structure?
+
 	The diagrams help map out the linear sequence of commits of one or multiple 
 	branches: it clearly shows when each new branch is made and whether that
 	branch merges with another.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-	The result is that a new node now references both branches. If we merge the coin 
-	branch into the master branch, the master branch will now include all the commits made in 
-	the coin branch as well, sequenced by timestamp. The reason why the diagram represents the 
-	merged state with a new node, is because the way Git is structured is that each commit is 
-	only reachable by a future commit.
+
+	The result is that a new node now references both branches. If we merge the 
+	coin branch into the master branch, the master branch will now include all 
+	the commits made in the coin branch as well, sequenced by timestamp. The 
+	reason why the diagram represents the merged state with a new node, is 
+	because the way Git is structured is that each commit is only reachable by 
+	a future commit.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
-	Pros of Git's automatic merging include automatic merging of independent functions 
-	and giving warnings of changes made in the same approximate area. Cons are that the 
-	automatic merging may occasionally merge changes that are not independent from one another.
+
+	Pros of Git's automatic merging include automatic merging of independent 
+	functions and giving warnings of changes made in the same approximate area. 
+	Cons are that the automatic merging may occasionally merge changes that are 
+	not independent from one another.
 	
-	Pros of always doing merges manually are that you will not miss the opportunity to 
-	consider the impact of every change. Cons are that you have to manually merge each change 
-	from each commit that may just be new independent functions. This will obviously be 
-	time-consuming for branches that have many different commits from the other branch.
+	Pros of always doing merges manually are that you will not miss the 
+	opportunity to consider the impact of every change. Cons are that you have 
+	to manually merge each change from each commit that may just be new 
+	independent functions. This will obviously be time-consuming for branches 
+	that have many different commits from the other branch.
