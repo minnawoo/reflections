@@ -12,7 +12,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    If Git automatically stayed up-to-date with your remote repository, 
+    you would lose all the work on your local directory that you have not 
+    yet pushed to the remote repository. In other words, the automatic pulls
+    would keep reverting your local directory back to the most recent commit
+    you made on Github, or even updating your directory with another person's
+    commit! Either way, you would lose your work-in-progress.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
