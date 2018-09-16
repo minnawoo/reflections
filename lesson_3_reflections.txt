@@ -32,18 +32,19 @@ use one instead of another?
     remote directory on Github. The number of forks other people make on one 
     person's repository is also tracked. Forking allows the creator of the
     original repository to get credit whenever other people use their code as a 
-    starting point for their own modifications.
+    starting point for their own purposes.
 
     While forks and clones are the results of copying an entire repository, 
     branches only refer to a part of the repository unless the entire repository
     only has one branch (i.e. the master branch). Still, you wouldn't say that
     you've made a branch of someone else's repository. You would use the word 
     clone instead (or fork if you're working with other people on that copy you've
-    made on Github using the fork button). Recall that branches are a series of 
-    commits that branch off of a previous commit for various purposes like 
-    experimenting with some changes, developing a new feature, or for fixing bugs 
-    without having to worry about accidentally breaking something else during the 
-    process.
+    made on Github using the fork button). 
+
+    (Recall that branches are a series of commits that branch off of a previous 
+    commit for various purposes like experimenting with some changes, developing 
+    a new feature, or for fixing bugs without having to worry about accidentally 
+    breaking something else during the process.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
