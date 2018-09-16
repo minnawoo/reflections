@@ -29,12 +29,17 @@ use one instead of another?
     original Github repository onto your local repository, then contributed
     commits that they would be able to see.
 
-    Branches can occur within your own local repository or on Github's remote
-    repository. Branches may be created by different people. For example, when 
-    you push your commits to Github, someone else may have already pushed a 
-    series of new commits. In that case, your push would become a new branch 
-    that may create merge conflicts when merging into the new master branch 
-    on Github.
+    While forks and clones are results of copying an entire repository, 
+    branches only refer to a part of a repository unless the entire repository
+    only has one branch (i.e. the master branch). Recall that branches are 
+    a series of commits that branch off of a previous commit for various 
+    purposes like the experimental development of a new feature or for fixing 
+    bugs without having to worry about accidentally breaking something else 
+    during the process and not having a working copy to revert back to easily.
+
+    These branches may eventually be merged into the master branch or remain
+    a separate branch for others to clone onto their local repositories for 
+    testing purposes.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
