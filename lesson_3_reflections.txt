@@ -22,7 +22,8 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Recall that clones are copies of repositories made from someone else's Github account directly onto your local directory.
+    Recall that clones are copies of repositories made from someone else's Github 
+    account directly onto your local directory.
     
     Forks are just a type of clone that Github makes for you on their machines. 
     When you press the fork button on someone else's repository, Github copies 
@@ -30,17 +31,19 @@ use one instead of another?
     cloning their copy onto your local directory and then pushing it into your 
     remote directory on Github. The number of forks other people make on one 
     person's repository is also tracked. Forking allows the creator of the
-    original repository to get credit when other people use their code as a base
-    for their own modifications.
+    original repository to get credit whenever other people use their code as a 
+    starting point for their own modifications.
 
     While forks and clones are the results of copying an entire repository, 
     branches only refer to a part of the repository unless the entire repository
     only has one branch (i.e. the master branch). Still, you wouldn't say that
     you've made a branch of someone else's repository. You would use the word 
-    clone instead (or fork if you're working with other people on that copy on
-    Github). Recall that branches are a series of commits that branch off of a previous commit for various purposes like experimenting with some changes, 
-    developing a new feature, or for fixing bugs without having to worry about
-    accidentally breaking something else during the process.
+    clone instead (or fork if you're working with other people on that copy you've
+    made on Github using the fork button). Recall that branches are a series of 
+    commits that branch off of a previous commit for various purposes like 
+    experimenting with some changes, developing a new feature, or for fixing bugs 
+    without having to worry about accidentally breaking something else during the 
+    process.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
