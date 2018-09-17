@@ -6,7 +6,7 @@ local?
     especially necessary when coding projects become collaborative with one or
     multiple other people contributing to the project. Rather than send each other
     emails of the entire repo once in a while, and having one person merge all
-    the new commits to their own branch, Github allows all collaborators to 
+    the new commits to their own branch, GitHub allows all collaborators to 
     directly push new commits onto the public branch.
 
 Why might you want to always pull changes manually rather than having Git
@@ -16,20 +16,20 @@ automatically stay up-to-date with your remote repository?
     you would lose all the work on your local directory that you have not 
     yet pushed to the remote repository. In other words, the automatic pulls
     would keep reverting your local directory back to the most recent commit
-    you made on Github, or even updating your directory with another person's
+    you made on GitHub, or even updating your directory with another person's
     commit! Either way, you would lose your work-in-progress.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Recall that clones are copies of repositories made from someone else's Github 
+    Recall that clones are copies of repositories made from someone else's GitHub 
     account directly onto your local directory.
     
-    Forks are just a type of clone that Github makes for you on their machines. 
-    When you press the fork button on someone else's repository, Github copies 
-    their repository into your Github account. This saves you the steps of first
+    Forks are just a type of clone that GitHub makes for you on their machines. 
+    When you press the fork button on someone else's repository, GitHub copies 
+    their repository into your GitHub account. This saves you the steps of first
     cloning their copy onto your local directory and then pushing it into your 
-    remote directory on Github. The number of forks other people make on one 
+    remote directory on GitHub. The number of forks other people make on one 
     person's repository is also tracked. Forking allows the creator of the
     original repository to get credit whenever other people use their code as a 
     starting point for their own purposes.
@@ -39,7 +39,7 @@ use one instead of another?
     only has one branch (i.e. the master branch). Still, you wouldn't say that
     you've made a branch of someone else's repository. You would use the word 
     clone instead (or fork if you're working with other people on that copy you've
-    made on Github using the fork button). 
+    made on GitHub using the fork button). 
 
     (Recall that branches are a series of commits that branch off of a previous 
     commit for various purposes like experimenting with some changes, developing 
@@ -58,10 +58,36 @@ stored locally?
     commit_id1 commit_id2" with commit_id2 changing to your latest local commit
     every time.
 
-How would you collaborate without using Git or GitHub?  What would be easier,
-and what would be harder?
+Now that you've seen how multiple people can share changes to a project using 
+GitHub, and review proposed changes using pull requests, how would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+    Without Git or GitHub, pull requests will need to be communicated via
+    email, instant messaging, a forum, or at in-person meetings. The files and 
+    line numbers of the request will need to be communicated and the person looking 
+    at the pull request will need to go into those files and navigate to those 
+    lines. This is obviously a lot more work than when GitHub automatically 
+    highlights those lines. 
+
+    Furthermore, following up on pull request issues in GitHub is a lot easier 
+    because a channel automatically exists for each pull request where a 
+    discussion can be hosted. For larger projects with multiple collaborators,
+    work on different parts of the program will be occuring simultaneously.
+    So collaborators may be discussing different things at the same time. Without
+    a channel dedicated to each issue, previous discussion may be lost and 
+    forgotten or would be cumbersome to find. Even if a channel-based workspace 
+    like Slack was set up to create new channels to discuss issues, small issues 
+    like typos or logic errors seen in the lecture video would be cumbersome to 
+    create new channels for each time. GitHub's commenting functionality would be easier to use for small issues like that.
+
+    What collaboration would be harder with Git and GitHub? It would still be 
+    easier to collaborate with Git and GitHub than without, but other methods may
+    be needed for issues that encompass different parts of a file or across 
+    multiple files. Pull requests on GitHub will not be a sufficient channel
+    to host a discussion in this case. Slack would probably be a better forum to 
+    host complex discussions. As the complexity of an issue rises, it may be 
+    necessary to use direct video conferencing platforms like Skype where 
+    collaborators can take turns sharing their computer screens to show everyone 
+    different parts of the program during discussion. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
