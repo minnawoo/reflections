@@ -95,7 +95,8 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     As Sarah mentioned, it's often best practice to first ask for feedback on 
-    your work through a pull request of a separate branch before committing the change to the master branch on Github. This is so that another contributors 
+    your work through a pull request of a separate branch before committing the 
+    change to the master branch on Github. This is so that another contributors 
     will be aware of the changes. This is especially so when many commits are 
     made, since it's easy to not be fully aware of what someone else's commit 
     entails or makes possible.
@@ -105,7 +106,8 @@ master?  What benefits does each approach have?
     Furthermore, they may add other changes to your changes to make the 
     improvement to the program even more effective. Subsequently, they would 
     be able to continue their work building on the new changes that you've made 
-    (rather than potentially writing a duplicate or another version of the same function).
+    (rather than potentially writing a duplicate or another version of the same 
+    function).
 
     On the other hand, the benefit to directly committing changes in master is
     that of time-savings. Doing this removes the need to wait for others to 
