@@ -44,12 +44,19 @@ use one instead of another?
     (Recall that branches are a series of commits that branch off of a previous 
     commit for various purposes like experimenting with some changes, developing 
     a new feature, or for fixing bugs without having to worry about accidentally 
-    breaking something else during the process.
+    breaking something else during the process.)
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If you're not ready to look at or merge your commits in with the commits 
+    (from other people) that may have come in after the point of the last known 
+    state of the remote repository, having a copy of the remote branch at the
+    point when you still know what is going on is helpful in letting you test
+    out an experimental feature, for example. This is especially since you would
+    only have to run "git diff origin/master master" rather than "git diff 
+    commit_id1 commit_id2" with commit_id2 changing to your latest local commit
+    every time.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
