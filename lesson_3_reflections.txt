@@ -59,7 +59,8 @@ stored locally?
     every time.
 
 Now that you've seen how multiple people can share changes to a project using 
-GitHub, and review proposed changes using pull requests, how would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+GitHub, and review proposed changes using pull requests, how would you collaborate 
+without using Git or GitHub?  What would be easier, and what would be harder?
 
     Without Git or GitHub, pull requests will need to be communicated via
     email, instant messaging, a forum, or at in-person meetings. The files and 
@@ -77,7 +78,8 @@ GitHub, and review proposed changes using pull requests, how would you collabora
     forgotten or would be cumbersome to find. Even if a channel-based workspace 
     like Slack was set up to create new channels to discuss issues, small issues 
     like typos or logic errors seen in the lecture video would be cumbersome to 
-    create new channels for each time. GitHub's commenting functionality would be easier to use for small issues like that.
+    create new channels for each time. GitHub's commenting functionality would be
+    easier to use for small issues like that.
 
     What collaboration would be harder with Git and GitHub? It would still be 
     easier to collaborate with Git and GitHub than without, but other methods may
@@ -92,4 +94,27 @@ GitHub, and review proposed changes using pull requests, how would you collabora
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    As Sarah mentioned, it's often best practice to first ask for feedback on 
+    your work through a pull request of a separate branch before committing the change to the master branch on Github. This is so that another contributors 
+    will be aware of the changes. This is especially so when many commits are 
+    made, since it's easy to not be fully aware of what someone else's commit 
+    entails or makes possible.
+
+    More importantly, the person who reviews the pull request can resolve any 
+    issues before the commit goes live onto the often public repository. 
+    Furthermore, they may add other changes to your changes to make the 
+    improvement to the program even more effective. Subsequently, they would 
+    be able to continue their work building on the new changes that you've made 
+    (rather than potentially writing a duplicate or another version of the same function).
+
+    On the other hand, the benefit to directly committing changes in master is
+    that of time-savings. Doing this removes the need to wait for others to 
+    review, comment, or merge your pull request. It also allows you to skip the
+    step of creating a new branch and having to eventually merge it with the 
+    master branch. A suitable best practice may be to review each other's commits
+    thoroughly and try them out after fetching them into a separate branch on 
+    your working directory. This way, issues are caught immediately and can be
+    fixed in subsequent commits. It may create more commit history for 
+    different features which may make debugging later more cumbersome, but that 
+    may be similar to maybe having to go through the comments of each discussion 
+    in multiple pull requests.
