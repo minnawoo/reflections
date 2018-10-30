@@ -3,11 +3,12 @@ local?
 
     Using a remote repository instead of than keeping all your work local is useful 
     when you want to share your repository with one or more people. This is
-    especially necessary when coding projects become collaborative with one or
-    multiple other people contributing to the project. Rather than send each other
-    emails of the entire repo once in a while, and having one person merge all
-    the new commits to their own branch, GitHub allows all collaborators to 
-    directly push new commits onto the public branch.
+    especially necessary when coding projects become collaborative with
+    multiple people contributing to the project. Imagine receiving multiple
+    emails of the entire repository from different people, and having to find and 
+    merge all of their changes to your own repository! GitHub allows all 
+    collaborators to directly push new commits onto the public branch and any 
+    collaborator to merge a change just once for everyone.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
